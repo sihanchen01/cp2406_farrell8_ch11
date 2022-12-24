@@ -1,17 +1,13 @@
-public class DebugOceanLiner extends DebugBoat
-{
-   public DebugOceanLiner()
-   {
-      Debug("ocean liner ");
+public class DebugOceanLiner extends DebugBoat {
+   public DebugOceanLiner() {
+      super("ocean liner ");
       setPassengers();
       setPower();
    }
-   public void setPassengers()
-   {
+   public void setPassengers() {
       super.passengers = 2400;
    }
-   public void power()
-   {
+   public void setPower() {
       super.power = "four engines";
    }
 }

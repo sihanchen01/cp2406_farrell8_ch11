@@ -4,7 +4,7 @@ public class DebugEleven1
 {
    public static void main(String[] args)
    {
-      DebugRowboat myBoat = new Rowboat();
-      System.out.println(myBoat.toString());
+      DebugRowboat myBoat = new DebugRowboat();
+      System.out.println(myBoat);
    }
 }
